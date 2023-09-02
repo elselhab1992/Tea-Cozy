@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  /*text-align: center;*/
+  background-color: black;
+  opacity: 0.9;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  border-bottom: 1px solid seashell;
+}
+
+header img {
+  height: 50px;
+  margin-left: 300px;
+}
+
+ul {
+  list-style-type: none;
+  margin-right: 250px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: start;
+}
+
+nav ul li {
+  text-decoration: underline;
+  margin-right: 50px;
+}
+
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+.mission img {
+  height: 700px;
+  width: 1200px;
+}
+
+.mission-text {
+  position: absolute;
+  width: 1200px;
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+.tea-of-the-month {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  padding: 30px;
+  margin: 20px auto 0px auto;
+}
+
+.tea-of-the-month h4 {
+  margin-bottom: 20px;
+}
+
+.tea-of-the-month h5 {
+  margin-bottom: 5px;
+}
+
+.tea-types {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0px auto 50px auto;
+}
+
+.tea-types img {
+  width: 300px;
+  height: 200px;
+  padding: 15px;
+}
+
+.tea-types h5 {
+  text-align: center;
+}
+
+.Locations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.Locations img {
+  width: 1200px;
+  height: 600px;
+  position: relative;
+}
+
+.location {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 1470px;
+}
+
+.location-text {
+  position: absolute;
+  top: 1440px;
+}
+
+.address {
+  background-color: black;
+  padding: 10px;
+  margin: 20px;
+  width: 300px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 2.5;
+  opacity: 1;
+}
+
+.contact {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 2.5;
+}
+
+.copyright {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
